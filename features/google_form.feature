@@ -6,6 +6,6 @@ Feature: Google Form exercise
     When I fill Email with jessica_schelly@hotmail.com
     When I fill Age with 20
     When I fill What animal do you identify with? with Panda
-    Then I submit the form
+    When I submit the form
     Then I should see Form submitted! :)
 

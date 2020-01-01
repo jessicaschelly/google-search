@@ -17,7 +17,7 @@ def search_for_lexisnexis(context, field, value):
     element.send_keys(value)
 
 
-@then(u'I submit the form')
+@when(u'I submit the form')
 def submit_form(context):
     google_page = Singleton.getInstance(context, GooglePage)
     google_page.submit(context.browser)
