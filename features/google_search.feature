@@ -1,9 +1,9 @@
 Feature: Google Search Exercise
 
   Scenario: Google Search Exercise
-    Given I navigate to the Google page
-    When I search for Lexis Nexis
-    Then I must see Lexis Nexis on results
+    Given a web browser is at the Google home page
+    When the user enters Lexis Nexis into the search bar
+    Then links related to Lexis Nexis are shown on the results page
 
 
 
