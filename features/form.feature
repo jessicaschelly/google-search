@@ -16,5 +16,5 @@ Feature: Form exercise
     When the user starts the form
     And the user types Mr Robot as Name
     And the user types N as option for 'Are you a robot?'
-    But the user types nothing as Age
+    But the user types twenty as Age
     Then the user must see error Please fill this in
