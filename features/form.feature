@@ -14,11 +14,7 @@ Feature: Form exercise
   Scenario: Fill form without age
     Given a web browser is at the Form page
     When the user starts the form
-    And the user types Guilherme as Name
+    And the user types Mr Robot as Name
     And the user types N as option for 'Are you a robot?'
     And the user types nothing as Age
     Then the user must see error Please fill this in
-
-
-  
-  

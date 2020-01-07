@@ -12,9 +12,6 @@ class FormPage(BasePage):
         actions.send_keys(Keys.ENTER)
         actions.perform()
 
-    def get_active_element(browser):
-        return browser.switch_to.active_element
-
     def write_to_active_element(browser, text):
         actions = ActionChains(browser)
         actions.send_keys(text)
